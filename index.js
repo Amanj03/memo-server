@@ -17,7 +17,7 @@ app.use('/posts',postRoutes);
 app.use('/user',userRoutes);
 
 app.get('/',(req,res)=>{
-    res.send('Hello API')
+    res.send('Server Is Running')
 })
 const CONNECTION_URL = process.env.CONNECTION_URL
 const PORT = process.env.PORT||5000;
